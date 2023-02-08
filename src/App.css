@@ -36,3 +36,50 @@
     transform: rotate(360deg);
   }
 }
+.btn {
+  background-color: lightgrey;
+  color: white;
+  padding: 5px 8px;
+  border-radius: 15px;
+  font-weight: 800;
+  border: none;
+}
+.cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+img {
+  max-width: 80px;
+  border-radius: 50%;
+}
+.contenedor {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.entrada {
+  width: 30px;
+  border-color: lightgrey;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #333333
+}
+h3 span {
+  font-weight: lighter;
+}
+button:active {
+	transform: scale(0.75);
+}
+ul li {
+  font-weight: 550;
+}
+li span {
+  font-weight: 750;
+  font-size: x-large;
+}
